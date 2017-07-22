@@ -15,3 +15,25 @@ It suport
   /// System.Security.Cryptography.TripleDES
   
   Algorithms.
+
+CipherUtility.Encrypt<Rijndael>("your clear text");
+
+CipherUtility.Encrypt<Aes>("your clear text");
+
+CipherUtility.Encrypt<DES>("your clear text");
+
+CipherUtility.Encrypt<RC2>("your clear text");
+
+CipherUtility.Encrypt<TripleDES>("your clear text");
+
+Then for decript the encripted text:
+
+CipherUtility.Decrypt<Rijndael>("your encripted text");
+
+CipherUtility.Decrypt<Aes>("your encripted text");
+
+CipherUtility.Decrypt<DES>("your encripted text");
+
+CipherUtility.Decrypt<RC2>("your encripted text");
+
+CipherUtility.Decrypt<TripleDES>("your encripted text");
