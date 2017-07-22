@@ -1,5 +1,5 @@
 # GenericAsymmetricCipher
-The GenericAsymmetricCipher, is a generic class, which you can use for Encription/Decription, using Dot Net Asymmetric Algorithms.
+The GenericAsymmetricCipher, is a generic class, which you can use for Encrypt/Decryp, using Dot Net Asymmetric Algorithms.
 It suport 
 
   /// System.Security.Cryptography.SymmetricAlgorithm
